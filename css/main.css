@@ -1,0 +1,53 @@
+header {
+  background-color: rgb(153,10,72);
+  padding: 20px 0px;
+  margin: 30px;
+  border: 7px solid rgba(153,10,72);
+  color: aqua;
+
+}
+h1{text-align: center;}
+h4{
+margin-top: 15%;
+text-align: right;
+
+}
+body {
+  width: 60%;
+  margin: auto;
+}
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(175,247, 246);
+}
+
+.flex-container > div {
+  background-color: #c49494;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  min-width: 28.3%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .container {
+    width: 80%;
+  }
+  .flex-container{
+    min-width: 85%;
+  }
+}
+body{
+background-color: rgb(226, 170, 200);
+
+}
