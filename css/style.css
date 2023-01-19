@@ -28,7 +28,7 @@ h2 {
   background-color: white;
   background-color: rgb(175, 247, 246);
 }
-p {
+p, div {
   text-align: left;
   width: 70%;
   margin-left: 15%;
